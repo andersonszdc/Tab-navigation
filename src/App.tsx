@@ -93,7 +93,11 @@ const Underline = ({ activeTab, refs }: any) => {
 
   return (
     <span className="underline">
-      <motion.span animate={{ left: (activeTab - 1) * x }} className="pointer" />
+      <motion.span
+        animate={{ left: (activeTab - 1) * x }}
+        transition={{duration: 0.5}}
+        className="pointer"
+      />
     </span>
   );
 };
