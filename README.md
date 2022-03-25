@@ -8,8 +8,6 @@
   <img alt="Tab-navigation" title="Tab-navigation" src="./github/cover.png" height="300" />
 </h1>
 
-Projeto inspirado nos layouts do [Pinterest](https://business.pinterest.com).
-
 <a href="https://tab-navigation.vercel.app/">Ver o projeto no ar</a>
 
 ### Features
