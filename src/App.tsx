@@ -22,8 +22,6 @@ function App() {
     return acc;
   }, {});
 
-  console.log("render app");
-
   return (
     <div className="App">
       <div className="tabs">
@@ -61,8 +59,6 @@ const Tab = forwardRef(
       setActiveTab(index);
     };
 
-    console.log("render tab");
-
     return (
       <div ref={ref} onClick={handleClick} className={classname}>
         {text}
@@ -88,8 +84,6 @@ const Underline = ({ activeTab, refs }: any) => {
   useEffect(() => {
     console.log(refs);
   }, [refs]);
-
-  console.log("render underline");
 
   return (
     <span className="underline">
